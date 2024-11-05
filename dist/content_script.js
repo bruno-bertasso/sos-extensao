@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((async function(e,n,s){s({fromcontent:"This message is from content.js"})}));

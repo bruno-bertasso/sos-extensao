@@ -1,0 +1,1 @@
+window.Guru=(()=>{let e=new MutationObserver((function(e){e.forEach((function(e){console.log(e.type)}))})),t=document.querySelector("body"),o={attributes:!0,childList:!0,characterData:!0};return{observe:()=>{e.observe(t,o)},disconnect:()=>{e.disconnect()}}})();
